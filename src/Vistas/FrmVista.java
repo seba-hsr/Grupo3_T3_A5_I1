@@ -34,7 +34,7 @@ public class FrmVista extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         barMenu = new javax.swing.JMenuBar();
-        jMenu1 = new javax.swing.JMenu();
+        jMenu = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
         jMenuItem3 = new javax.swing.JMenuItem();
         jMenuItem4 = new javax.swing.JMenuItem();
@@ -100,7 +100,7 @@ public class FrmVista extends javax.swing.JFrame {
                 .addContainerGap(31, Short.MAX_VALUE))
         );
 
-        jMenu1.setText("Opciones");
+        jMenu.setText("Opciones");
 
         jMenuItem1.setText(" Crear Vector");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
@@ -108,7 +108,7 @@ public class FrmVista extends javax.swing.JFrame {
                 jMenuItem1ActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem1);
+        jMenu.add(jMenuItem1);
 
         jMenuItem3.setText("Ingresar Datos");
         jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
@@ -116,7 +116,7 @@ public class FrmVista extends javax.swing.JFrame {
                 jMenuItem3ActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem3);
+        jMenu.add(jMenuItem3);
 
         jMenuItem4.setText("Mostrar Mayor");
         jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
@@ -124,7 +124,7 @@ public class FrmVista extends javax.swing.JFrame {
                 jMenuItem4ActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem4);
+        jMenu.add(jMenuItem4);
 
         jMenuItem5.setText("Mostrar Listado");
         jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
@@ -132,7 +132,7 @@ public class FrmVista extends javax.swing.JFrame {
                 jMenuItem5ActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem5);
+        jMenu.add(jMenuItem5);
 
         jMenuItem7.setText("Salir");
         jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
@@ -140,13 +140,18 @@ public class FrmVista extends javax.swing.JFrame {
                 jMenuItem7ActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem7);
+        jMenu.add(jMenuItem7);
 
-        barMenu.add(jMenu1);
+        barMenu.add(jMenu);
 
         jMenu2.setText("Ayuda");
 
         jMenuItem2.setText("Instrucciones");
+        jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem2ActionPerformed(evt);
+            }
+        });
         jMenu2.add(jMenuItem2);
 
         itemAcerca.setText("Acerca de");
@@ -195,6 +200,10 @@ public class FrmVista extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jMenuItem7ActionPerformed
 
+    private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem2ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -239,7 +248,7 @@ public class FrmVista extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem2;
