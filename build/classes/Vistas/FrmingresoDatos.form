@@ -60,11 +60,11 @@
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="txtTamaño" min="-2" pref="70" max="-2" attributes="0"/>
+                          <Component id="txtTamaño" min="-2" pref="47" max="-2" attributes="0"/>
                       </Group>
-                      <Component id="btnenvTam" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnenvtam" alignment="0" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="26" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -79,7 +79,7 @@
                       <Component id="txtTamaño" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="btnenvTam" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnenvtam" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -88,29 +88,20 @@
       <SubComponents>
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
-            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="0" green="0" red="ff" type="rgb"/>
-            </Property>
-            <Property name="text" type="java.lang.String" value="INGRESO DE DATOS DEL VECTOR"/>
+            <Property name="text" type="java.lang.String" value="INGRESO DE DATOS"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
-            <Property name="text" type="java.lang.String" value="INGRESE EL TAMA&#xd1;O QUE DESEA QUE SEA EL VECTOR:"/>
+            <Property name="text" type="java.lang.String" value="Por favor, ingrese el tama&#xf1;o que desea que tenga el vector:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="txtTama&#xf1;o">
         </Component>
-        <Component class="javax.swing.JButton" name="btnenvTam">
+        <Component class="javax.swing.JButton" name="btnenvtam">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Enivar Tama&#xf1;o"/>
+            <Property name="text" type="java.lang.String" value="Eviar Tama&#xf1;o"/>
           </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnenvTamActionPerformed"/>
-          </Events>
-          <AuxValues>
-            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
-          </AuxValues>
         </Component>
       </SubComponents>
     </Container>

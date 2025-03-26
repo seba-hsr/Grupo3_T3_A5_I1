@@ -9,12 +9,12 @@ package Vistas;
  *
  * @author PC_07
  */
-public class FRMingresarDatos extends javax.swing.JFrame {
+public class FrmingresoDatos extends javax.swing.JFrame {
 
     /**
-     * Creates new form FRMingresarDatos
+     * Creates new form FrmingresoDatos
      */
-    public FRMingresarDatos() {
+    public FrmingresoDatos() {
         initComponents();
     }
 
@@ -31,23 +31,17 @@ public class FRMingresarDatos extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         txtTamaño = new javax.swing.JTextField();
-        btnenvTam = new javax.swing.JButton();
+        btnenvtam = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        jLabel1.setForeground(new java.awt.Color(255, 0, 0));
-        jLabel1.setText("INGRESO DE DATOS DEL VECTOR");
+        jLabel1.setText("INGRESO DE DATOS");
 
-        jLabel2.setText("INGRESE EL TAMAÑO QUE DESEA QUE SEA EL VECTOR:");
+        jLabel2.setText("Por favor, ingrese el tamaño que desea que tenga el vector:");
 
-        btnenvTam.setText("Enivar Tamaño");
-        btnenvTam.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnenvTamActionPerformed(evt);
-            }
-        });
+        btnenvtam.setText("Eviar Tamaño");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -60,9 +54,9 @@ public class FRMingresarDatos extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jLabel2)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(txtTamaño, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(btnenvTam))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(txtTamaño, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnenvtam))
+                .addContainerGap(26, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -74,7 +68,7 @@ public class FRMingresarDatos extends javax.swing.JFrame {
                     .addComponent(jLabel2)
                     .addComponent(txtTamaño, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnenvTam)
+                .addComponent(btnenvtam)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -98,10 +92,6 @@ public class FRMingresarDatos extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnenvTamActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnenvTamActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnenvTamActionPerformed
-
     /**
      * @param args the command line arguments
      */
@@ -119,26 +109,26 @@ public class FRMingresarDatos extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(FRMingresarDatos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrmingresoDatos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(FRMingresarDatos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrmingresoDatos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(FRMingresarDatos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrmingresoDatos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(FRMingresarDatos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrmingresoDatos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new FRMingresarDatos().setVisible(true);
+                new FrmingresoDatos().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    public javax.swing.JButton btnenvTam;
+    private javax.swing.JButton btnenvtam;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
