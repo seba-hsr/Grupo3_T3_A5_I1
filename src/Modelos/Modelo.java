@@ -15,9 +15,10 @@ import java.awt.event.ActionEvent;
  */
 public class Modelo implements ActionListener{
     private Vistas.FrmVista $Vista;
+    private Modelo $Modelo;
     private Vistas.FrmAyuda $Ayuda;
     private Vistas.FrmCrearVector $Vector;
-    private Vistas.FRMingresarDatos $Datos;
+    private Vistas.FrmingresoDatos $Datos;
 
     public Modelo(FrmVista _Vista) {
         this.$Vista = _Vista;
@@ -25,7 +26,7 @@ public class Modelo implements ActionListener{
         this.$Vista.itemAcerca.addActionListener(this);
         this.$Vector.btnCrearVector.addActionListener(this);
         this.$Vector.btnCerrarVentanaCrearVector.addActionListener(this);
-        this.$Datos.btnenvTam.addActionListener(this);
+        this.$Datos.btnenvtam.addActionListener(this);
     }
 
     @Override
@@ -40,6 +41,7 @@ public class Modelo implements ActionListener{
         if (evt.getSource() == this.$Vista.datos){
             $Vector.setVisible(true);
         }
+        
         
     }
 }

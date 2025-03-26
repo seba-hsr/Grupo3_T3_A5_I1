@@ -105,6 +105,9 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Enviar Tama&#xf1;o"/>
           </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
         </Component>
       </SubComponents>
     </Container>
