@@ -159,7 +159,7 @@ public class FrmAyuda extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnCerrarVentanaAcercade;
+    public javax.swing.JButton btnCerrarVentanaAcercade;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
