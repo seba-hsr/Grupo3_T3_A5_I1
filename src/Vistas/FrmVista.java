@@ -32,7 +32,7 @@ public class FrmVista extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         barMenu = new javax.swing.JMenuBar();
-        jMenu1 = new javax.swing.JMenu();
+        jMenu = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
         jMenuItem3 = new javax.swing.JMenuItem();
         jMenuItem4 = new javax.swing.JMenuItem();
@@ -85,7 +85,7 @@ public class FrmVista extends javax.swing.JFrame {
                 .addContainerGap(43, Short.MAX_VALUE))
         );
 
-        jMenu1.setText("Opciones");
+        jMenu.setText("Opciones");
 
         jMenuItem1.setText(" Crear Vector");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
@@ -93,7 +93,7 @@ public class FrmVista extends javax.swing.JFrame {
                 jMenuItem1ActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem1);
+        jMenu.add(jMenuItem1);
 
         jMenuItem3.setText("Ingresar Datos");
         jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
@@ -101,7 +101,7 @@ public class FrmVista extends javax.swing.JFrame {
                 jMenuItem3ActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem3);
+        jMenu.add(jMenuItem3);
 
         jMenuItem4.setText("Mostrar Mayor");
         jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
@@ -109,7 +109,7 @@ public class FrmVista extends javax.swing.JFrame {
                 jMenuItem4ActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem4);
+        jMenu.add(jMenuItem4);
 
         jMenuItem7.setText("Salir");
         jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
@@ -117,9 +117,9 @@ public class FrmVista extends javax.swing.JFrame {
                 jMenuItem7ActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem7);
+        jMenu.add(jMenuItem7);
 
-        barMenu.add(jMenu1);
+        barMenu.add(jMenu);
 
         jMenu2.setText("Ayuda");
 
@@ -222,7 +222,7 @@ public class FrmVista extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem2;
