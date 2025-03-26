@@ -37,11 +37,12 @@ public class FrmingresoDatos extends javax.swing.JFrame {
 
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
+        jLabel1.setForeground(new java.awt.Color(255, 0, 0));
         jLabel1.setText("INGRESO DE DATOS");
 
         jLabel2.setText("Por favor, ingrese el tamaño que desea que tenga el vector:");
 
-        btnenvtam.setText("Eviar Tamaño");
+        btnenvtam.setText("Enviar Tamaño");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

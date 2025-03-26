@@ -88,6 +88,9 @@
       <SubComponents>
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="ff" type="rgb"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="INGRESO DE DATOS"/>
           </Properties>
         </Component>
@@ -100,7 +103,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnenvtam">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Eviar Tama&#xf1;o"/>
+            <Property name="text" type="java.lang.String" value="Enviar Tama&#xf1;o"/>
           </Properties>
         </Component>
       </SubComponents>
