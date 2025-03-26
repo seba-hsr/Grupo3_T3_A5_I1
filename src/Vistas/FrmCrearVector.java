@@ -33,6 +33,7 @@ public class FrmCrearVector extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         lblRespuestaCrearVector = new javax.swing.JLabel();
         btnCrearVector = new javax.swing.JButton();
+        btnCerrarVentanaCrearVector = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -51,6 +52,8 @@ public class FrmCrearVector extends javax.swing.JFrame {
 
         btnCrearVector.setText("Crear");
 
+        btnCerrarVentanaCrearVector.setText("Cerrar Ventana");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -68,13 +71,16 @@ public class FrmCrearVector extends javax.swing.JFrame {
                         .addContainerGap()
                         .addComponent(jLabel1)
                         .addGap(80, 80, 80)
-                        .addComponent(txtTamañoVector, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(147, 147, 147)
-                        .addComponent(btnCrearVector)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lblRespuestaCrearVector)))
-                .addContainerGap(105, Short.MAX_VALUE))
+                        .addComponent(txtTamañoVector, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(147, 147, 147)
+                .addComponent(btnCrearVector)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(lblRespuestaCrearVector)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 58, Short.MAX_VALUE)
+                .addComponent(btnCerrarVentanaCrearVector)
+                .addGap(25, 25, 25))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -90,7 +96,8 @@ public class FrmCrearVector extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblRespuestaCrearVector)
-                    .addComponent(btnCrearVector))
+                    .addComponent(btnCrearVector)
+                    .addComponent(btnCerrarVentanaCrearVector))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -137,6 +144,7 @@ public class FrmCrearVector extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    public javax.swing.JButton btnCerrarVentanaCrearVector;
     public javax.swing.JButton btnCrearVector;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;

@@ -40,14 +40,17 @@
                       <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
                       <Component id="txtTamañoVector" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="147" max="-2" attributes="0"/>
-                      <Component id="btnCrearVector" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="lblRespuestaCrearVector" min="-2" max="-2" attributes="0"/>
-                  </Group>
               </Group>
-              <EmptySpace pref="105" max="32767" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="147" max="-2" attributes="0"/>
+              <Component id="btnCrearVector" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblRespuestaCrearVector" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="58" max="32767" attributes="0"/>
+              <Component id="btnCerrarVentanaCrearVector" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -67,6 +70,7 @@
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="lblRespuestaCrearVector" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="btnCrearVector" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnCerrarVentanaCrearVector" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="32767" attributes="0"/>
           </Group>
@@ -110,6 +114,14 @@
     <Component class="javax.swing.JButton" name="btnCrearVector">
       <Properties>
         <Property name="text" type="java.lang.String" value="Crear"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCerrarVentanaCrearVector">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cerrar Ventana"/>
       </Properties>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
