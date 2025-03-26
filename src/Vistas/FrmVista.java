@@ -34,14 +34,14 @@ public class FrmVista extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         barMenu = new javax.swing.JMenuBar();
-        jMenu = new javax.swing.JMenu();
+        vectro = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
-        jMenuItem3 = new javax.swing.JMenuItem();
+        datos = new javax.swing.JMenuItem();
         jMenuItem4 = new javax.swing.JMenuItem();
         jMenuItem5 = new javax.swing.JMenuItem();
         jMenuItem7 = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
-        jMenuItem2 = new javax.swing.JMenuItem();
+        instrc = new javax.swing.JMenuItem();
         itemAcerca = new javax.swing.JMenuItem();
 
         jCheckBoxMenuItem1.setSelected(true);
@@ -100,7 +100,7 @@ public class FrmVista extends javax.swing.JFrame {
                 .addContainerGap(31, Short.MAX_VALUE))
         );
 
-        jMenu.setText("Opciones");
+        vectro.setText("Opciones");
 
         jMenuItem1.setText(" Crear Vector");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
@@ -108,15 +108,15 @@ public class FrmVista extends javax.swing.JFrame {
                 jMenuItem1ActionPerformed(evt);
             }
         });
-        jMenu.add(jMenuItem1);
+        vectro.add(jMenuItem1);
 
-        jMenuItem3.setText("Ingresar Datos");
-        jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
+        datos.setText("Ingresar Datos");
+        datos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem3ActionPerformed(evt);
+                datosActionPerformed(evt);
             }
         });
-        jMenu.add(jMenuItem3);
+        vectro.add(datos);
 
         jMenuItem4.setText("Mostrar Mayor");
         jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
@@ -124,7 +124,7 @@ public class FrmVista extends javax.swing.JFrame {
                 jMenuItem4ActionPerformed(evt);
             }
         });
-        jMenu.add(jMenuItem4);
+        vectro.add(jMenuItem4);
 
         jMenuItem5.setText("Mostrar Listado");
         jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
@@ -132,7 +132,7 @@ public class FrmVista extends javax.swing.JFrame {
                 jMenuItem5ActionPerformed(evt);
             }
         });
-        jMenu.add(jMenuItem5);
+        vectro.add(jMenuItem5);
 
         jMenuItem7.setText("Salir");
         jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
@@ -140,19 +140,19 @@ public class FrmVista extends javax.swing.JFrame {
                 jMenuItem7ActionPerformed(evt);
             }
         });
-        jMenu.add(jMenuItem7);
+        vectro.add(jMenuItem7);
 
-        barMenu.add(jMenu);
+        barMenu.add(vectro);
 
         jMenu2.setText("Ayuda");
 
-        jMenuItem2.setText("Instrucciones");
-        jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
+        instrc.setText("Instrucciones");
+        instrc.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem2ActionPerformed(evt);
+                instrcActionPerformed(evt);
             }
         });
-        jMenu2.add(jMenuItem2);
+        jMenu2.add(instrc);
 
         itemAcerca.setText("Acerca de");
         jMenu2.add(itemAcerca);
@@ -184,9 +184,9 @@ public class FrmVista extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
-    private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
+    private void datosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_datosActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem3ActionPerformed
+    }//GEN-LAST:event_datosActionPerformed
 
     private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
         // TODO add your handling code here:
@@ -200,9 +200,9 @@ public class FrmVista extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jMenuItem7ActionPerformed
 
-    private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
+    private void instrcActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_instrcActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem2ActionPerformed
+    }//GEN-LAST:event_instrcActionPerformed
 
     /**
      * @param args the command line arguments
@@ -241,6 +241,8 @@ public class FrmVista extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JMenuBar barMenu;
+    public javax.swing.JMenuItem datos;
+    public javax.swing.JMenuItem instrc;
     public javax.swing.JMenuItem itemAcerca;
     private javax.swing.JCheckBoxMenuItem jCheckBoxMenuItem1;
     private javax.swing.JLabel jLabel1;
@@ -248,14 +250,12 @@ public class FrmVista extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JMenu jMenu;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuItem jMenuItem1;
-    private javax.swing.JMenuItem jMenuItem2;
-    private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem5;
     private javax.swing.JMenuItem jMenuItem7;
     private javax.swing.JPanel jPanel1;
+    public javax.swing.JMenu vectro;
     // End of variables declaration//GEN-END:variables
 }
