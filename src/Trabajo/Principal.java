@@ -15,7 +15,7 @@ public class Principal {
         Vistas.FrmVista $objVista = new Vistas.FrmVista();
         Modelos.Modelo $objModelo = new Modelos.Modelo($objVista);
         $objVista.setVisible(true);
-        System.out.println("AMO A LA MARUCHA");
+        System.out.println("AMO A LA MARUSWDHA");
     }
     
 }
